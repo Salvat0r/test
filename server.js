@@ -12,7 +12,7 @@ const port = 5000;
 app.use(morgan('combined'));
 
 app.get("/",(request,response) => {
-    response.send("Ciao A Tutti!");
+    response.send("Ciao One!");
 });
 
 app.listen(port, () => {
